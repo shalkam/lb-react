@@ -27,6 +27,7 @@ To do so use this command when you are in the project root folder
 `npm run dev`
 
 This command runs both the loopback package using nodemon and the client package using webpack
+
 Note: you will need to reload the page manually when you make a change in the client side
 
 ##Building the project
