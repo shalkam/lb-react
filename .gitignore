@@ -21,3 +21,4 @@ client/node_modules
 client/public/dist
 nbproject
 uploads
+.vscode
