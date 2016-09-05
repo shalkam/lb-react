@@ -1,0 +1,44 @@
+{
+  "name": "role",
+  "base": "Role",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "users": {
+      "type": "hasMany",
+      "model": "user",
+      "foreignKey": "roleId",
+      "through": "roleMapping"
+    },
+    "principals": {
+      "type": "hasMany",
+      "model": "roleMapping",
+      "foreignKey": "roleId"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

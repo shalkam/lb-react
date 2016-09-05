@@ -1,0 +1,27 @@
+export default {
+  'locale.en': 'الانجليزية',
+  'locale.ar': 'العربية',
+  'readMore':'اقرأ المزيد',
+  'app.name': 'Loopback React',
+  'app.posts': 'المدونة',
+  'app.home': 'الرئيسية',
+  'app.login': 'تسجيل الدخول',
+  'app.logout': 'تسجيل خروج',
+  'email':'البريد الالكتروني',
+  'password': 'كلمة المرور',
+  'message.loading.title':'جاري التحميل',
+  'message.loading.body':'جاري التحميل .... برجاء الانتظار',
+  'message.unauth.title':'غير مسموج',
+  'message.unauth.body':'ليس لديك الصلاحيات اللازمة لرؤية هذه الصفحة',
+  //user login
+  'label.login': 'تسجيل دخول',
+  'label.email': 'البريد الالكتروني',
+  'label.password': 'كلمة المرور',
+  'message.logged.title': 'تم تسجيل الدخول',
+  'message.logged.body':'تم تسجيل الدخول بنجاح باسم :',
+  'message.loggedout.title': 'تم تسجيل الخروج',
+  'message.loggedout.body':'تم تسجيل الخروج بنجاح',
+  //contact footer
+  'contact.address': 'العنوان',
+  'contact.followus':'تابعنا',
+}

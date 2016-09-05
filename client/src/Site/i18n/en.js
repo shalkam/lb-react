@@ -1,0 +1,25 @@
+export default {
+  'locale.en': 'English',
+  'locale.ar': 'Arabic',
+  'readMore': 'Learn More',
+  'app.name': 'Loopback React',
+  'app.home': 'Home',
+  'app.posts': 'Blog',
+  'app.login': 'Login',
+  'app.logout': 'Logout',
+  'message.loading.title': 'Loading',
+  'message.loading.body': 'Loading .... please wait',
+  'message.unauth.title': 'Unauthorized',
+  'message.unauth.body': 'You don\'t have the required permission required',
+  //user login
+  'label.login': 'Login',
+  'label.email': 'Email',
+  'label.password': 'Password',
+  'message.logged.title': 'Logged in',
+  'message.logged.body': 'You\'ve been successfully logged in as :',
+  'message.loggedout.title': 'Logged out',
+  'message.loggedout.body': 'You\'ve been successfully Logged out',
+  //contact footer
+  'contact.address': 'ِAddress',
+  'contact.followus': 'Follow Us',
+}

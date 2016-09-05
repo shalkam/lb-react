@@ -1,0 +1,69 @@
+.rtl-container {
+    font-family: 'DroidArabicKufiRegular';
+}
+
+
+.rtl-container h3, .logo h1 a {
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.rtl-container .link-effect-3 a::before {
+  right: 0;
+}
+
+.rtl-container .reservation input[type="submit"] {
+  margin: 4em 20em 0 0;
+  letter-spacing: 0;
+}
+
+.rtl-container .logo {
+    float: right;
+}
+.rtl-container .logo span {
+  font-size: 0.5em;
+  border-right: 2px solid #eee048;
+  padding-right: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 0;
+  border-left: none;
+  padding-left: 0;
+}
+
+.rtl-container .w3_working_time {
+    float: right;
+    margin-left: 0;
+    margin-right: 2em;
+}
+
+.rtl-container .w3_working_time span {
+    right: 1em;
+    left: auto;
+}
+
+.rtl-container .w3_working_time select#country {
+    padding: 10px 40px 10px 10px;
+}
+.rtl-container .navigation-right {
+    float: left;
+}
+
+.modal.rtl {
+  direction: rtl;
+}
+
+.rtl-container .agileits_about_grid_left h3:after,
+.rtl-container .banner-bottom-image-text-left h3:after,
+.rtl-container .w3agile_contact_left h3:after {
+    right: 0;
+}
+
+.rtl-container .agileits_about_grid_left h3:before,
+.rtl-container .banner-bottom-image-text-left h3:before,
+.rtl-container .w3agile_contact_left h3:before {
+    right: 0;
+}
+
+.rtl-container .w3agile_gallery_grid {
+    padding: 0;
+}
