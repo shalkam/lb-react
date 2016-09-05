@@ -1,7 +1,7 @@
 # Loopback/React boilerplate
 A Loopback/React.js boilerplate to help you get started with your project.
 
-Note: This repository is going through heavy development currently and should not be used in production unless you know what you are doing
+Note: **This repository is going through heavy development currently and should not be used in production unless you know what you are doing**
 ##Features
 * The client has both admin and client ends
 * The Admin part has user mangament done including: users managment, roles management, role mapping
