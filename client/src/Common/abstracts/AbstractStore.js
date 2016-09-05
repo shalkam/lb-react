@@ -32,8 +32,4 @@ export default class AbstractStore extends Store {
     path += query ? "?" + qs.stringify(query, { encode: false, indices: false }) : '';
     return Store.API_PATH_PREFIX + path;
   }
-
-  update(url, data) {
-    return this.ajax(url, 'PUT', data);
-  }
 }
