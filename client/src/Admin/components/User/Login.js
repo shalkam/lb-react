@@ -9,8 +9,8 @@ import LoginForm from './Form/LoginForm';
 import LoginStore from './Stores/LoginStore';
 import Logout from './Logout';
 
-import '../../../../public/css/bootstrap.css';
-import '../../../../public/css/bootstrap-rtl.min.css';
+import '../../../../public/assets/site/css/bootstrap.css';
+import '../../../../public/assets/site/css/bootstrap-rtl.min.css';
 
 export default class Login extends React.Component {
     constructor(props) {

@@ -37,3 +37,8 @@ To do so use this command when you are in the project root folder
 `npm run build-client`
 
 This will build the client side javascript for production
+
+##Contributing
+Feel free to submit a new issue [here](https://github.com/shalkam/lb-react/issues)
+
+or create a new  PR [here](https://github.com/shalkam/lb-react/pulls)

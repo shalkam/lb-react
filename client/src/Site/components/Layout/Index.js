@@ -10,17 +10,17 @@ import Header from './Header';
 import Login from '../User/Login';
 import i18n from '../../i18n';
 // load css
-import '../../../../public/css/bootstrap.css';
-import '../../../../public/css/bootstrap-rtl.min.css';
-import '../../../../public/css/style.css';
-import '../../../../public/css/style-rtl.css';
-import '../../../../public/css/fa/css/font-awesome.min.css';
-import '../../../../public/css/bootstrap-theme.css';
-import '../../../../public/css/print.css';
-import '../../../../public/css/droid-kufi.css';
-import '../../../../public/fonts/Gloria.css';
-import '../../../../public/fonts/OpenSans.css';
-import '../../../../public/fonts/Roboto.css';
+import '../../../../public/assets/site/css/bootstrap.css';
+import '../../../../public/assets/site/css/bootstrap-rtl.min.css';
+import '../../../../public/assets/site/css/style.css';
+import '../../../../public/assets/site/css/style-rtl.css';
+import '../../../../public/assets/site/css/fa/css/font-awesome.min.css';
+import '../../../../public/assets/site/css/bootstrap-theme.css';
+import '../../../../public/assets/site/css/print.css';
+import '../../../../public/assets/site/css/droid-kufi.css';
+import '../../../../public/assets/site/fonts/Gloria.css';
+import '../../../../public/assets/site/fonts/OpenSans.css';
+import '../../../../public/assets/site/fonts/Roboto.css';
 
 addLocaleData(arLocaleData);
 
@@ -72,8 +72,8 @@ export default class Layout extends React.Component {
             left: this.state.locale==='ar'?'15px':'',
             right: this.state.locale==='ar'?'':'15px'
         }}>
-        <img onClick={this.handleLocaleChange.bind(this) } value='en' src="/images/flags/gb.svg" alt={messages['locale.en']} title={messages['locale.en']} />
-        <img onClick={this.handleLocaleChange.bind(this) } value='ar' src="/images/flags/ae.svg" alt={messages['locale.ar']} title={messages['locale.ar']} />
+        <img onClick={this.handleLocaleChange.bind(this) } value='en' src="/assets/site/images/flags/gb.svg" alt={messages['locale.en']} title={messages['locale.en']} />
+        <img onClick={this.handleLocaleChange.bind(this) } value='ar' src="/assets/site/images/flags/ae.svg" alt={messages['locale.ar']} title={messages['locale.ar']} />
       </div>
         <Grid fluid>
           <Row className='show-grid'>
